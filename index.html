@@ -5,15 +5,65 @@
     <title>Html</title>
 </head>
 <body>
-    <!----------------------  Iframe Show For Website ----------------------------------->
-<iframe src="https://nmbabor.com/" name="nsdrama"></iframe>
-<a href="https://www.youtube.com/@nsdrama" target="_blank">Click Here</a>
-<br><br>
- <!----------------------  Iframe Show For Google Map ----------------------------------->
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1884734.984736044!2d91.1668160641506!3d22.686464009296966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3754a58103900e93%3A0xb7ae99632ba501f1!2z4Kao4KeL4Kef4Ka-4KaW4Ka-4Kay4KeA!5e0!3m2!1sbn!2sbd!4v1675282801519!5m2!1sbn!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-<br><br>
- <!----------------------  Iframe Show For Youtube ----------------------------------->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b4Rlq3KTSik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <!----------------------  Html Form ----------------------------------->
+    <h1>Sign Up Form</h1>
+    <hr>
+    <br>
+    <form action="#" method="POST">
+        <label for="user">User Name :</label>
+        <input type="text" id="user" name="name" placeholder="Type Your Name" required>
+        <br><br>
+        <label for="email">User Email</label>
+        <input type="email" id="email" name="email" placeholder="Type Your Email" required>
+        <br><br>
+        <label for="password">User Password</label>
+        <input type="password" id="password" name="password" placeholder="Type your Password" required>
+        <br><br>
+        <label for="phone">Your Phone :</label>
+        <select name="code">
+            <option value="+0088">+0088</option>
+            <option value="+0088">+0088</option>
+            <option value="+0088">+0088</option>
+        </select>
+        <input type="number" id="phone" name="phone" placeholder="12345678" required>
+        <br><br>
+        <label for="country">Country</label>
+        <input list="con">
+        <datalist id="con">
+            <option value="Bangladesh"></option>
+            <option value="Norway"></option>
+            <option value="Canada"></option>
+        </datalist>
+        <br><br>
+        Gender :
+        <input type="radio" id="gnd1" name="gender">
+        <label for="gnd1">Male</label>
+        <input type="radio" id="gnd2" name="gender">
+        <label for="gnd2">Female</label>
+        <br><br>
+        <label for="date">Select Birth Date :</label>
+        <input type="date" id="date" name="date">
+        <br><br>
+        <label for="time">Select Time : </label>
+        <input type="time" id="time" name="time">
+        <br><br>
+        <label for="color">Select Color :</label>
+        <input type="color" id="color" name="color">
+        <br><br>
+        <label for="iamge">Select Image</label>
+        <input type="file" id="image" name="image">
+        <br><br>
+        <input type="checkbox" id="box1" name="box1">
+        <label for="box1">I Have A Bike</label>
+        <input type="checkbox" id="box2" name="box2">
+        <label for="box2">I Have A Bycycle</label>
+        <br><br>
+        <textarea name="commants" rows="10" cols="30">Your Comments</textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset"  value="Reset">
+
+    </form>
 
 </body>
 </html>
