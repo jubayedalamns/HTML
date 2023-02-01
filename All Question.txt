@@ -1,0 +1,19 @@
+1 . html basic structure
+=>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start HTML</title>
+    </head>
+    <body>
+        Hello World
+    </body>
+</html>
+
+2. Html heading tag
+	=>h1,h2,h3,h4,h5,h6
+3. Html All without closing tag
+	=>meta tag(<meta charset="UFT-8">)
+	=><br>(break line)
+	=><hr>(horizontal line)
+	=>style=" ;"(<h1 style="color:red;">Hello</h1>
