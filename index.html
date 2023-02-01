@@ -2,312 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Html Table</title>
-    <style>
-        td
-        {
-            width: 50px;
-            height: 25px;   
-        }
-    </style>
+    <title>Html List</title>
 </head>
 <body>
+    <!----------------------  Order List Type ----------------------------------->
+    <ol>
+        <li>Hello</li>
+        <li>Hello</li>
+    </ol>
+    <!--
+     -----------OutPut------------
+       1. Hello
+       2. Hello
+    -->
+
     
-    <h2><center> Many Kinds Of Table In Html </center></h2>
-    <hr>
-    <!--   Table Example ::::: 1   -->
-    <mark>Example :: 1</mark>
-    <br><br>
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Phone</th>
-            <th>Action</th>
-        </tr>
-        <tr>
-            <td>Jubayed Alam</td>
-            <td>jubayedalamns@gmail.com</td>
-            <td>01320900000</td>
-            <td>Active</td>
-        </tr>
-        <tr>
-            <td>Jannatul Mawa</td>
-            <td>jannatulmawans@gmail.com</td>
-            <td>01320900000</td>
-            <td>Active</td>
-        </tr>
-    </table>
-    <br><br><br>
-    <!--   Table Example ::::: 2   -->
-    <mark>Example :: 2</mark>
-    <br><br>
-    <table border="2 px solid #ccc" width="500px">
-        <tr>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Phone</th>
-            <th>Action</th>
-        </tr>
-        <tr>
-            <td>Jubayed Alam</td>
-            <td>jubayedalamns@gmail.com</td>
-            <td>01320900000</td>
-            <td>Active</td>
-        </tr>
-        <tr>
-            <td>Jannatul Mawa</td>
-            <td>jannatulmawans@gmail.com</td>
-            <td>01320900000</td>
-            <td>Active</td>
-        </tr>
-    </table>
-<!--   Table Example ::::: 3   -->
-<div style="text-align: center; float: right;position: absolute;top: 100px; left: 700px; width: 80%;">
-    <mark style="float: left;">Example :: 3</mark>
-    <br><br>
-    <table border="1" style="width: 600px;">
-        <tr>
-            <th rowspan="3">Day</th>
-            <th colspan="3">Seminar</th>
-        </tr>
-        <tr>
-            <th colspan="2">Schedule</th>
-            <th rowspan="2">Tofic</th>
-        </tr>
-        <tr>
-            <th>Begin</th>
-            <th>End</th>
-        </tr>
-
-        <tr>
-            <td rowspan="2">Monday</td>
-            <td rowspan="2" bgcolor="orange"> 8:00 am</td>
-            <td rowspan="2" bgcolor="lightblue"> 5:00 pm</td>
-            <td>Introduce of XLS</td>
-        </tr>
-        <tr>
-            <td>XLS FORMATIING OBJECTS</td>
-        </tr>
-
-        <tr>
-            <td rowspan="3">Tuesday</td>
-            <td bgcolor="orange">8:00 Am</td>
-            <td bgcolor="orange">11:00 Am</td>
-            <td rowspan="2">XPath</td>
-        </tr>
-        <tr>
-            <td bgcolor="orange">11:00 Am</td>
-            <td bgcolor="lightgreen">2:00 PM</td>
-        </tr>
-        <tr>
-            <td bgcolor="lightgreen">2:00 PM</td>
-            <td bgcolor="lightblue">5:00 PM</td>
-            <td>XLS TRANSFORMATIONS</td>
-        </tr>
-        <tr>
-            <td>Wednesday</td>
-            <td bgcolor="orange">8:00 AM</td>
-            <td bgcolor="lightgreen">12:00 PM</td>
-            <td>XLS FORMATIING OBJECTS</td>
-        </tr>
-    </table>
-</div>
-    <br><br><br>
-    <!--   Table Example ::::: 4   -->
-    <mark>Example :: 4</mark>
-    <br><br>
-    <table border="1">
-        <tr>
-          <th>Name</th>
-          <th>Subject</th>
-          <th>Marks</th>
-        </tr>
-        <tr>
-          <td rowspan="3">Mark Smith</td>
-          <td>English</td>
-          <td>67</td>
-        </tr>
-        <tr>
-          <td>Maths</td>
-          <td>82</td>
-        </tr>
-        <tr>
-          <td>Science</td>
-          <td>91</td>
-        </tr>
-      </table>
-
-    <br><br><br>
+    <ol type="A">
+        <li>Hello</li>
+        <li>Hello</li>
+    </ol>
+    <!--
+     -----------OutPut------------
+       A. Hello
+       B. Hello
+    -->
+    <ol type="a">
+        <li>Hello</li>
+        <li>Hello</li>
+    </ol>
+    <!--
+     -----------OutPut------------
+       a. Hello
+       b. Hello
+    -->
+    <ol type="I">
+        <li>Hello</li>
+        <li>Hello</li>
+    </ol>
+    <!--
+     -----------OutPut------------
+       I. Hello
+       II. Hello
+    -->
+    <ol type="i">
+        <li>Hello</li>
+        <li>Hello</li>
+    </ol>
+    <!--
+     -----------OutPut------------
+       i. Hello
+       ii. Hello
+    -->
 
 
 
-    <table border=1px width="700px" align="center" style="text-align:center">
-        <tr>
-            <td rowspan="2">A</td>
-            <td>B</td>
-            <td rowspan="3">D</td>
-            <td colspan="2">E</td>
-            <td>F</td>
-        </tr>
-        <tr>
-            <td>C</td>
-            <td rowspan="2">G</td>
-            <td rowspan="2">H</td>
-            <td rowspan="2">I</td>
-        </tr>
-        <tr>
-            <td colspan="2">J</td>
-        </tr>
-        <tr>
-            <td colspan="3">K</td>
-            <td>L</td>
-            <td colspan="2">M</td>
-        </tr>
+<!----------------------  UnOrder List Type ----------------------------------->
+    <ul>
+        <li>Hello</li>
+        <li>Hello</li>
+    </ul>
+    <!--
+     -----------OutPut------------
+       * Hello
+       * Hello
+    -->
 
-    </table>
-
-<br><br>
-
-
-    <table border="1">
-        <tr>
-            <td rowspan="2"></td>
-            <td rowspan="3"></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            
-            <td></td>
-        </tr>
-    </table>
-    <!--   Table Example ::::: 5   -->
-    <mark>Example :: 5</mark>
-    <br><br>
-    <table border="1" style="border-collapse: collapse;">
-        <tr>
-          <th>S.N</th>
-          <th>Item</th>
-          <th>Quantity</th>
-        </tr>
-        <tr>
-          <td>1</td>
-          <td>Apple</td>
-          <td>2</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Mango</td>
-          <td>2</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>Orange</td>
-          <td>1</td>
-        </tr>
-        <tr>
-          <td colspan="2">Total</td>
-          <td>5</td>
-        </tr>
-      </table>
-
-    <br><br><br>
-    <!--   Table Example ::::: 6   -->
-    <mark style="text-align: center;margin: 0 auto;">Example :: 6</mark>
-    <br><br>
-    <table border="1" width="800px" style="border-collapse: collapse; text-align: center;margin: 0 auto;">
-        <tr>
-          <th>Country</th>
-          <th>State</th>
-          <th>City</th>
-          <th>Street</th>
-          <th>Male</th>
-          <th>Female</th>
-          <th>Others</th>
-        </tr>
-        <tr>
-          <td rowspan="8">1</td>
-          <td rowspan="4">Noakhali</td>
-          <td rowspan="2" >Maijdee</td>
-          <td>New Street</td>
-          <td>500</td>
-          <td>600</td>
-          <td>6</td>
-        </tr>
-
-        <tr>
-            <td>Main Street</td>
-            <td>500</td>
-            <td>388</td>
-            <td>2</td>
-        </tr>
-
-        <tr>
-            <td rowspan="2">Bosurhat</td>
-            <td>New Street</td>
-            <td>500</td>
-            <td>600</td>
-            <td>10</td>
-        </tr>
-        <tr>
-            <td>Main Street</td>
-            <td>500</td>
-            <td>600</td>
-            <td>2</td>
-        </tr>
-
-        <tr>
-            <td rowspan="4">Dhaka</td>
-            <td rowspan="2">Uttora</td>
-            <td>New Street</td>
-            <td>700</td>
-            <td>850</td>
-            <td>1</td>
-        </tr>
-        <tr>
-            <td>Main Street</td>
-            <td>500</td>
-            <td>600</td>
-            <td>2</td>
-        </tr>
-
-        <tr>
-            <td rowspan="2">Mirpur</td>
-            <td>New Street</td>
-            <td>500</td>
-            <td>600</td>
-            <td>4</td>
-        </tr>
-        <tr>
-            <td>Main Street</td>
-            <td>500</td>
-            <td>600</td>
-            <td>2</td>
-        </tr>
-
-        <tr>
-            <td rowspan="2">2</td>
-            <td rowspan="2">Bangladesh</td>
-            <td rowspan="2">Dhaka</td>
-            <td>Billa Street</td>
-            <td>200</td>
-            <td>210</td>
-            <td>2</td>
-        </tr>
-        <tr>
-            <td>Cross Street</td>
-            <td>1000</td>
-            <td>1050</td>
-            <td>10</td>
-        </tr>
-
-      </table>
-
-    <br><br><br>
+    <ul type="square">
+        <li>Hello</li>
+        <li>Hello</li>
+    </ul>
+    <!--
+     -----------OutPut------------
+       * Hello
+       * Hello
+    -->
 
 
 
